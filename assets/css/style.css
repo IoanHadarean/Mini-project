@@ -375,6 +375,9 @@ button[type="submit"] {
     color: #fafafa;
 }
 
+input[type="submit"] {
+    margin-bottom: 20px;
+}
 
 /*----------------------------------------------------------------------------------------Media Queries*/
 
@@ -394,5 +397,10 @@ button[type="submit"] {
     }
 }
 
-
+@media(min-width: 1200px) {
+    p {
+        margin: 0 0 10px;
+        margin-bottom: 60px;
+    }
+}
 
